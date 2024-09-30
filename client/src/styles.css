@@ -1,0 +1,100 @@
+body {
+    background-color: #f0f2f5; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .register-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; 
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #555; 
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .password-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-input input {
+    flex: 1;
+  }
+  
+  .toggle-password {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .toggle-password i {
+    color: white; 
+    font-size: 18px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; 
+  }
+  .error-message{
+    color: red;
+  }
+
+
+  .redirect-text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .redirect-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .redirect-link:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  

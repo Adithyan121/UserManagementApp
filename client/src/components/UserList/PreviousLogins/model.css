@@ -1,0 +1,38 @@
+.user-list-container {
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+  }
+  .login-list{
+    color:red
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-info {
+    flex-grow: 1;
+  }
+  
+  .action-buttons button {
+    margin-left: 5px;
+  }
+  
+  .blocked {
+    background-color: #ffdddd;
+  }
+  
+  .blocked-label {
+    color: red;
+  }
+  
